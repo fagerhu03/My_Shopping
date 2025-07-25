@@ -20,7 +20,7 @@ A clean, responsive, and localized shopping app built using Flutter with Provide
 
 ## 🎬 Demo Video
 
-[![Watch the demo](https://img.youtube.com/vi/your_video_id_here/0.jpg)](https://www.youtube.com/watch?v=your_video_id_here)
+[![Watch the demo]([https://img.youtube.com/vi/your_video_id_here/0.jpg)](https://www.youtube.com/watch?v=your_video_id_here](https://github.com/fagerhu03/My_Shopping/blob/master/assets/screenshots/demo.mkv))
 
 ---
 
@@ -58,15 +58,27 @@ A clean, responsive, and localized shopping app built using Flutter with Provide
 ## 🧱 Folder Structure
 
 ```
-lib/
-├── constants/           # Theme colors, styles
-├── models/              # Product and cart item models
-├── screens/
-│   ├── auth/            # SignIn and SignUp screens
-│   ├── home/            # Home screen and product grid
-│   ├── cart/            # Cart page
-├── services/            # Product service, Cart provider
-├── main.dart            # App entry point
+flutter_shopping_app/
+├── android/
+├── assets/
+│   ├── images/         # Logos and splash images
+│   ├── icons/          # App icons
+│   └── screenshots/    # Screenshots for documentation
+├── ios/
+├── lib/
+│   ├── constants/      # AppColors, styles
+│   ├── models/         # Product, CartItem models
+│   ├── providers/      # CartService (ChangeNotifier)
+│   ├── screens/
+│   │   ├── auth/       # SignInScreen, SignUpScreen
+│   │   ├── cart/       # CartScreen
+│   │   └── home/       # HomeScreen
+│   ├── services/       # CartService logic
+│   └── main.dart       # Entry point
+├── l10n/               # intl_en.arb, intl_ar.arb
+├── pubspec.yaml
+├── flutter_native_splash.yaml
+└── README.md
 ```
 
 ---
@@ -76,7 +88,7 @@ lib/
 - **Primary Color:** `#2C3E50`
 - **Accent (Gold):** `#D4AF37`
 - **Text Color:** `#1A1A1A`
-- **App Icon:** `<img src="assets/images/iconsapp.png" width="250" alt="icon" />`(resized and fixed for Android 12+)
+- **App Icon:** `assets/images/iconsapp.png` (resized and fixed for Android 12+)
 - **Splash Image:** Centered and resized to `640x1280` from `splash.png`
 
 ---
@@ -110,20 +122,10 @@ flutter pub run flutter_launcher_icons:main
 
 ---
 
-## 🧾 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 👤 Author
 
-**Your Name**  
-Feel free to reach out via [LinkedIn](https://linkedin.com/in/yourprofile) or open issues on GitHub.
+**Fager Hussein**  
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/fagerhu/) or open issues on GitHub.
 
 ---
-
-## 📢 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss.
 
