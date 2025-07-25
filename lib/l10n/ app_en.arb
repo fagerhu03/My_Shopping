@@ -1,0 +1,12 @@
+{
+  "@@locale": "en",
+  "appTitle": "Flutter Shopping App",
+  "welcomeMessage": "Welcome to Flutter Shopping!",
+  "signUp": "Sign Up",
+  "signIn": "Sign In",
+  "ourProducts": "Our Products",
+  "hotOffers": "Hot Offers",
+  "createAccount": "Create Account",
+  "email": "Email",
+  "password": "Password"
+}

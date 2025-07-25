@@ -1,0 +1,57 @@
+name: flutter_shopping_app
+description: "A beautiful shopping app built with Flutter"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.1.0
+  cupertino_icons: ^1.0.8
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  provider: ^6.1.1
+  lottie: ^2.7.0
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.4
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/iconsapp.png"
+  adaptive_icon_background: "#2C3E50"  # or path to a background image
+  adaptive_icon_foreground: "assets/images/iconsapp.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/icons/
+    - assets/images/
+    - assets/images/products/
+    - assets/fonts/
+
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+        - asset: assets/fonts/NotoSans-Bold.ttf  # If you have the bold variant
+          weight: 700
+        - asset: assets/fonts/NotoSans-Italic.ttf  # If you have the italic variant
+          style: italic
+    - family:  Suwannaphum
+      fonts:
+        - asset: assets/fonts/Suwannaphum.ttf
